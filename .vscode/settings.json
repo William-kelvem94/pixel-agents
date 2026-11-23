@@ -18,5 +18,12 @@
     "[markdown]": {
         "editor.formatOnSave": false
     },
-    "liveServer.settings.port": 5501
+    "liveServer.settings.port": 5501,
+    "terminal.integrated.env.windows": {
+        "PATH": "${env:PATH};D:\\DOCUMENTOS\\GitHub\\openclaude-wk",
+        "CLAUDE_CODE_USE_OPENAI": "1",
+        "OPENAI_API_KEY": "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",
+        "OPENAI_BASE_URL": "https://integrate.api.nvidia.com/v1",
+        "OPENAI_MODEL": "google/gemma-4-31b-it"
+    }
 }
